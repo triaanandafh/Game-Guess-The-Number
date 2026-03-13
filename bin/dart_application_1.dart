@@ -7,5 +7,17 @@ void main() {
   int nyawa = 5;
   print("=== Game Tebak Angka (1-100) ===");
 
-  
+  while (tebakan != angkaRahasia && nyawa > 0) {
+    print("\nSisa nyawa: $nyawa");
+    tebakan = 42; // input tebakan statis 
+
+    if (tebakan == angkaRahasia) {
+      print("Selamat! Tebakanmu benar.");
+    } else if (tebakan > angkaRahasia) {
+      print("Terlalu besar!");
+    } else {
+      print("Terlalu kecil!");
+    }
+    nyawa--;
+  }
 }

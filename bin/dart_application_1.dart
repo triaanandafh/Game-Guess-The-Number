@@ -36,4 +36,15 @@ void main() {
       }
     }
   }
+
+  // FEATURE: OUTPUT DISPLAY (Branch output-display)
+  if (!menang) {
+    print("\nYah! Kamu kehabisan nyawa. Angka rahasianya adalah $angkaRahasia.");
+  }
+
+  print("\n========== RIWAYAT TEBAKAN ==========");
+  for (var i = 0; i < riwayatTebakan.length; i++) {
+    print("Tebakan ke-${i + 1}: ${riwayatTebakan[i]}");
+  }
+  print("=====================================");  
 }

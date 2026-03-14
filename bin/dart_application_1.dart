@@ -3,10 +3,12 @@ import 'dart:math';
 
 void main() {
   var random = Random();
-  int angkaRahasia = random.nextInt(10) + 1; // Angka 1-10
-  int tebakan = 0;
+  int angkaRahasia = random.nextInt(10) + 1; // Angka acak 1-10
   int nyawa = 5;
-  print("=== Game Tebak Angka (1-10) ===");
+  bool menang = false;
+
+  print("=== GAME TEBAK ANGKA (1-10) ===");
+  print("Kamu punya $nyawa nyawa untuk menebak angka rahasia.");
 
   
 }

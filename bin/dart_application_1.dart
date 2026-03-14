@@ -11,9 +11,6 @@ void main() {
   print("=== GAME TEBAK ANGKA (1-10) ===");
   print("Kamu punya $nyawa nyawa untuk menebak angka rahasia.");
 
-  print("=== GAME TEBAK ANGKA (1-100) ===");
-  print("Kamu punya $nyawa nyawa untuk menebak angka rahasia.");
-
   List<int> riwayatTebakan = [];
 
   // FEATURE: GAME LOGIC (Branch game-logic)

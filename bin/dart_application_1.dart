@@ -4,11 +4,11 @@ import 'dart:math';
 void main() {
   // FEATURE: INITIAL SETUP (Branch initial-setup)
   var random = Random();
-  int angkaRahasia = random.nextInt(100) + 1; // Angka acak 1-100
+  int angkaRahasia = random.nextInt(10) + 1; // Angka acak 1-10
   int nyawa = 5;
   bool menang = false;
 
-  print("=== GAME TEBAK ANGKA (1-100) ===");
+  print("=== GAME TEBAK ANGKA (1-10) ===");
   print("Kamu punya $nyawa nyawa untuk menebak angka rahasia.");
 
   List<int> riwayatTebakan = [];
